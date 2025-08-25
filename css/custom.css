@@ -428,12 +428,18 @@ padding-right: 15px;
 header.main-header{
 
 	z-index: 100;
-margin-top: -10px!important;
+margin-top: -1px!important;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
                 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 		
 
 }
+@media only screen and (max-width: 767px) {
+    header.main-header {
+        margin-top: -10px !important;
+    }
+}
+
 
 .main-header .container-fluid{
 	position: relative;
@@ -500,7 +506,7 @@ header.main-header .header-sticky.active .container-fluid::before{
 }
 .main-menu .nav-menu-wrapper{
 	flex: 1;
-	text-align: left;
+	text-align: center;
 	margin-left: 40px;
 }
 
@@ -4299,7 +4305,7 @@ header.main-header .header-sticky.active .container-fluid::before{
 	}
 
 	.navbar{
-		max-width: 100%;
+		max-width: 90%;
 	}
 
 	.hero.hero-slider-layout .hero-pagination{
