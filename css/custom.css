@@ -6117,7 +6117,7 @@ header.main-header .header-sticky.active .container-fluid::before{
 				padding-right: 60px;
 
 			}
-        /* Animation for initial load */
+     
         .contact-action-btn {
             animation: floatIn 0.6s ease-out forwards;
             opacity: 0;
